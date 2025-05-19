@@ -9,7 +9,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "*", // For dev. Use exact URL in prod.
+    origin: "https://chat-app-pink-tau-51.vercel.app", // For dev. Use exact URL in prod.
     methods: ["GET", "POST"],
   },
 });
