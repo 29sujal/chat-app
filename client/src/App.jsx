@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 import EmojiPicker from "emoji-picker-react";
 
-const socket = io("http://localhost:3001"); // Adjust for production
+const socket = io("https://chat-app-cccm.onrender.com"); // Adjust for production
 
 function App() {
   const [username, setUsername] = useState("");
