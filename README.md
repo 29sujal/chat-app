@@ -34,16 +34,22 @@ Frontend: [https://chat-app-pink-tau-51.vercel.app](https://chat-app-pink-tau-51
 
 ```
 
-chat-app/
-├── client/         # React frontend (Vite)
-│   ├── public/
-│   ├── src/
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-├── server/         # Express backend
-│   ├── index.js
-│   └── package.json
+CHAT-APP/
+├── client/ # Frontend - React with Vite
+│ ├── public/
+│ ├── src/
+│ │ ├── App.jsx
+│ │ ├── main.jsx
+│ │ ├── index.css
+│ │ └── App.css
+│ ├── index.html
+│ ├── vite.config.js
+│ └── package.json
+├── server/ # Backend - Node.js with Express and Socket.IO
+│ ├── index.js
+│ └── package.json
+├── README.md
+└── .gitignore
 
 ````
 
